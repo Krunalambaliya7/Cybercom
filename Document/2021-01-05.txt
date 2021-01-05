@@ -1,1 +1,8 @@
-Hello
+Today I am read about Version control system and git.
+Then I create an account on git and create a repo for practice.
+
+Then I perform some git operations. like..
+clone
+add
+push 
+merge 
