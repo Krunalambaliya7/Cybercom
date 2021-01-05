@@ -7,5 +7,4 @@ add
 push 
 merge 
 fetch
-
 and I also perform merge with no ff and without fast forword.
