@@ -1,0 +1,26 @@
+Today's Work
+
+->performing operations on remote like
+-push
+-commit
+-add 
+-branch(create,delete)
+  -branch delete: git branch -d master1
+                     error: The branch 'master1' is not fully merged.
+                     If you are sure you want to delete it, run 'git branch -D master1
+
+on both private and public repo.
+ 
+operatins:
+
+-log (graph,follow etc.)
+-diff
+-rm
+-restore
+-revort
+-show
+
+I face the problem while i use a remote access.
+the problem was deny access because of priveous remote.
+ 
+then I solve the problem with the help of youtube. 
