@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Winner</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var john = [89,120,103];
+		var mike = [116,94,123];
+		var mary = [97,134,105];
+		
+		function average(score) 
+		{
+			result = (score.reduce((a,b) => a+b))/3;
+			return result;
+		}
+
+		var john_avg = average(john);
+		var mike_avg = average(mike);
+		var mary_avg = average(mary);
+
+		if (john_avg > mike_avg && john_avg > mary_avg) 
+		{
+			console.log("Winner is John with the average score"+" "+john_avg);
+		}
+		else if (mike_avg > mary_avg) 
+		{
+			console.log("Winner is Mike with the average score"+" "+mike_avg);
+		}
+		else
+		{
+			console.log("Winner is Marry with the average score"+" "+mary_avg);
+		} 
+	</script>
+</body>
+</html>
