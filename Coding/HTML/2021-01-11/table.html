@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<h1>Nasted Table</h1>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		table,th,td{
+			border: 1px solid black;
+		}
+		.table_border{
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+		<table class="table_border">
+			<tr rowspan="2">
+				<th colspan="2">CI</th>
+				<th>All Genders</th>
+				<th colspan="2">By Gender
+				<table>
+						<tr>
+							<th>Male</th>
+							<th>Female</th>
+						</tr>
+						<tr>
+							<td>9215604</td>
+							<td>4512358</td>
+						</tr>
+				</table>
+			</th>
+			</tr>
+			<tr>
+				<th>Rular</th>
+				<td>6521458</td>
+				<td>4515389</td>
+				<td>4152348</td>
+			</tr>
+		</table>
+</body>
+</html>
