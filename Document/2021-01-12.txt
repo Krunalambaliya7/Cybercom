@@ -1,0 +1,8 @@
+Today's Work
+
+Today i learn how to Javascript language is work.
+Topics like this key-word,scope of the object, hoisting,loops etc.
+
+And also understand about how code is execute, Execution contexts and execution stack.
+
+I learn all this and prectice it which is in the Prctice folder on git.
