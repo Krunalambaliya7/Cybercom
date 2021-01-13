@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local and Session Storage Example</title>
+	<h1>Local and Session Storage</h1>
+</head>
+<body>
+	<p id="result"></p>
+	<script>
+		//store data
+
+		//localStorage.setItem("firstname", "Krunal");
+		sessionStorage.setItem("firstname","Krunal");
+
+	  	// Retrieve data
+
+	  	//document.getElementById("result").innerHTML = localStorage.getItem("firstname");a
+  		document.getElementById("result").innerHTML = sessionStorage.getItem("firstname");
+	</script>
+</body>
+</html>
