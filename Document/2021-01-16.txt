@@ -1,0 +1,10 @@
+Today's work:
+
+Today I learn some topics like,
+First class function (function returning)
+Immediately invoked function expression (IIFE)
+Bind,call and apply on methods
+let and const keyword
+blocks and iifes
+
+all the topics are perform in the practice file.
