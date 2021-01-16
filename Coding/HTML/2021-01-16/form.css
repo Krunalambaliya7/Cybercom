@@ -1,0 +1,27 @@
+.row{
+			margin-right: 550px;
+			margin-left: 550px;
+		}
+		#head{
+			margin-right: 500px;
+			margin-left: 500px;
+		}
+		.btn{
+			border-radius: 50px;
+			background-color: purple;
+			color: white;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		#head{
+			background-image: url("sky.jpg");
+		}
+		h3{
+			 color: white;
+		}
+		input:active , input:focus{
+			outline: none;
+			box-shadow: none;
+		}
