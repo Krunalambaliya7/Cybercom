@@ -1,0 +1,11 @@
+span{
+		position: absolute;
+		top: -13px;
+		background-color: white;
+	}
+#border{
+			border: 1px solid black;
+		}
+#padding{
+			padding-left: 350px; 
+		}
