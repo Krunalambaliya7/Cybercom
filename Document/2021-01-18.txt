@@ -1,0 +1,7 @@
+Today's work
+
+today i learn about arrorw function,destructing and arrays functions.
+
+arroorw function is very useful beceuse with arrow we write reduced code.
+
+destructing is nothing but the use the values of the object eith the key.
