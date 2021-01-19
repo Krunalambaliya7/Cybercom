@@ -1,0 +1,17 @@
+form{
+			border: 1px solid black;
+			margin-left: 450px;
+			margin-right: 450px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			background-color: rgba(0,0,0,0.1);
+		}
+		div{
+			padding-bottom: 10px;
+		}
+		#div{
+			margin-left: 30px;
+		}
+		span{
+			font-size: 18px;
+		}
