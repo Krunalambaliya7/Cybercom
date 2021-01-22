@@ -1,0 +1,18 @@
+Today I was started to learn PHP.
+
+Learn about php like what is php language, how it use etc.
+
+And also learn about php_info() function which is use for the information of the givern progtam.
+
+Topics:
+- echo
+- if else
+- switch
+- loops like foe , do-while , while
+- operators
+- variables
+- error reporting 
+- comments 
+
+
+almost topics I learned in collage.  
