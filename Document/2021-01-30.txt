@@ -1,0 +1,7 @@
+Today's work
+
+topics:
+-MD5 encryption
+-sending an email using php
+-create simple form and send an email to that user 
+-xml
