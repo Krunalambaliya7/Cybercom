@@ -1,0 +1,11 @@
+Today's work
+
+Today i was learn about database.
+
+like what is databas,how to use it and how to use with php.
+
+database use query .
+-select
+-insert
+-update
+-delete
