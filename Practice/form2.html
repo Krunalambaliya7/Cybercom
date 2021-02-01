@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style type="text/css">
+		table{
+			background-color: lightgreen;
+			border: 1px solid black;
+			padding: 20px;
+			width: 600px;
+			height: 500px;
+		}
+		label{
+			font-weight: bold;
+		}
+	</style>
+
+	<script type="text/javascript" src="form2.js"></script>
+
+
+	<title>User Form</title>
+</head>
+<body onload="numb()">
+	<center>
+		<form method="post" >
+			<table>
+				<tr>
+					<td colspan="2">
+						<center><h1>USER FORM</h1></center>
+					</td>
+				</tr>
+				<tr>
+					<td><label>FIRST NAME</label></td>
+					<td><input type="text" name="name" id="name"></td>
+				</tr>
+				<tr>
+					<td><label>PASSWORD</label></td>
+					<td><input type="password" name="password" id="password"></td>
+				</tr>
+				<tr>
+					<td><label>GENDER</label></td>
+					<td>
+					<input type="radio" name="gender" id="gender" value="Male">Male&nbsp;&nbsp;
+					<input type="radio" name="gender"  value="Female">Female
+				</td>
+				</tr>
+				<tr>
+					<td><label>ADDRESS</label></td>
+					<td><textarea rows="4" cols="30" id="text" name="txt"></textarea></td>
+				</tr>
+				<tr>
+					<td><label>D.O.B</label></td>
+					<td>
+						<select name="Month" id="dob_month" >
+						<option value="" selected="" disabled="">Month</option>
+						<option value="January">January</option>
+						<option value="February">February</option>
+						<option value="March">March</option>
+						<option value="April">April</option>
+						<option value="May">May</option>
+						<option value="June">June</option>
+						<option value="July">July</option>
+						<option value="August">August</option>
+						<option value="September">September</option>
+						<option value="October">October</option>
+						<option value="November">November</option>
+						<option value="December">December</option>
+					</select>&nbsp;&nbsp;
+
+					<select name="Day" id="op1" >
+						<option value="" selected="" disabled="">Date</option>
+					</select>&nbsp;&nbsp;
+
+					<select name="Year" id="op2">
+						<option value="" selected="" disabled="">Year</option>
+					</select>
+				</td>
+				</tr>
+				<tr>
+					<td><label>SELECT GAME</label></td>
+					<td>
+				<input type="checkbox" name="game[]" value="Hockey">Hockey<br>
+				<input type="checkbox" name="game[]" value="Football">Football<br>
+				<input type="checkbox" name="game[]" value="Badminton">Badminton<br>
+				<input type="checkbox" name="game[]" value="Cricket">Cricket<br>
+				<input type="checkbox" name="game[]" value="Vollyball">Vollyball
+			</td>
+				</tr>
+				<tr>
+					<td><label>MARITAL STATUS</label></td>
+					<td>
+					<input type="radio" name="marital" id="marital" value="Married">Married&nbsp;&nbsp;
+					<input type="radio" name="marital" id="marital" value="Unmarried">Unmarried
+				</td>
+				</tr>
+
+				<tr>
+					<td colspan="2">
+						<center><input type="submit" name="Submit" onclick="validation1()">&nbsp;&nbsp;
+						<input type="reset" name="Reset"></center>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+					<center><input type="checkbox" name="accept" id="accept">Iaccept this agrement</center>
+					</td>
+				</tr>
+	</table>
+			</table>
+		</form>
+	</center>
+</body>
+</html>

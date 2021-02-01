@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		table{
+			width: 500px;
+			height: 700px;
+			border-collapse: collapse;
+		}
+		label{
+			color: yellow;
+			font-weight: bold;
+		}
+		.orange{
+			background-color: orange;
+		}
+		.blue{
+			background-color: darkblue;
+		}
+		.green{
+			background-color: lightgreen;
+			padding: 5px;
+			font-weight: bold;
+			font-size: 12px;
+		}
+		.red{
+			background-color: red;
+			font-size: 12px;
+			padding: 5px;
+			font-weight: bold;
+
+		}
+	</style>
+	<script type="text/javascript" src="form4.js"></script>
+	<title>Sign up</title>
+</head>
+<body onload="numb()">
+	<center>
+		<form action="form4.php" method="post" onsubmit="return validation1()">
+			<table>
+				<tr class="orange">
+					<th colspan="2"><label><h2>Sign up</h2></label></th>
+				</tr>
+				<tr class="blue">
+					<td><label>First Name:</label></td>
+					<td><input type="text" name="firstname" id="firstname" placeholder="Enter first name"></td>
+				</tr>
+				<tr class="blue">
+					<td><label>Last Name:</label></td>
+					<td><input type="text" name="lastname" id="lastname" placeholder="Enter last name"></td>
+				</tr>
+				<tr class="blue">
+					<td><label>Date of birth:</label></td>
+					<td>
+						<select name="Month" id="dob_month" >
+						<option value="" selected="" disabled="">Month</option>
+						<option value="January">January</option>
+						<option value="February">February</option>
+						<option value="March">March</option>
+						<option value="April">April</option>
+						<option value="May">May</option>
+						<option value="June">June</option>
+						<option value="July">July</option>
+						<option value="August">August</option>
+						<option value="September">September</option>
+						<option value="October">October</option>
+						<option value="November">November</option>
+						<option value="December">December</option>
+					</select>&nbsp;&nbsp;
+
+					<select name="Day" id="op1">
+						<option value="" selected="" disabled="">Date</option>
+					</select>&nbsp;&nbsp;
+
+					<select name="Year" id="op2">
+						<option value="" selected="" disabled="">Year</option>
+					</select>
+					</td>
+				</tr>
+				<tr class="blue">
+					<td><label>Gender:</label></td>
+					<td>
+						<input type="radio" name="gender" id="gender" value="Male"><label>Male</label>&nbsp;&nbsp;
+						<input type="radio" name="gender"  value="Female"><label>Female</label>
+					</td>
+				</tr>
+				<tr class="blue">
+					<td><label>Country:</label></td>
+					<td>
+						<select name="country" id="country">
+							<option value="" selected="">Country</option>
+							<option value="India">India</option>
+							<option value="America">America</option>
+							<option value="Russia">Russia</option>
+						</select>
+					</td>
+				</tr>
+				<tr class="blue">
+					<td><label>E-mail:</label></td>
+					<td><input type="email" name="email" id="email" placeholder="Enter E-mail"></td>
+				</tr>
+				<tr class="blue">
+					<td><label>Phone number:</label></td>
+					<td><input type="number" name="phone" id="phone" placeholder="Enter phone number"></td>
+				</tr>
+				<tr class="blue">
+					<td><label>Password:</label></td>
+					<td><input type="Password" name="password" id="password"></td>
+				</tr>
+				<tr class="blue">
+					<td><label>Confirm Password:</label></td>
+					<td><input type="Password" name="confirm_password" id="confirm_password"></td>
+				</tr>
+				<tr class="blue">
+					<td colspan="2">
+						<input type="checkbox" name="agree" id="agree"><label>I Agree Terms of use</label>
+					</td>
+				</tr>
+				<tr class="orange">
+						<td colspan="2">
+						<center>
+						<input type="submit" class="green" name="Submit">&nbsp;&nbsp;&nbsp;
+						<input type="reset" class="red" name="Reset">
+					</center>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</center>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.border{
+			border: 5px solid black;
+			margin-left: 500px;
+			margin-right: 500px;
+			padding: 20px;
+			background-color: gray;
+		}
+		input{
+			width: 250px;
+			height: 50px;
+			margin-bottom: 30px;
+		}
+		textarea{
+			width: 250px;
+			height: 100px;
+			margin-bottom: 30px;
+		}
+		.orange{
+			background-color: orange;
+			padding-bottom: 10px;
+			padding-top: 10px;
+		}
+		.yellow{
+			background-color: yellow;
+			padding-bottom: 10px;
+			padding-top: 10px;
+		}
+		.lightyellow{
+			background-color: lightyellow;
+			padding-top: 20px;
+		}
+		button{
+			width: 200px;
+			background-color: yellow;
+			border: none;
+		}
+	</style>
+	<script type="text/javascript" src="form3.js"></script>
+	<title>Contact us</title>
+</head>
+<body>
+	<center>
+		<div class="border">
+		<form action="form3.php" method="post" onsubmit="return validation1()">
+			<div class="orange">
+				<h1>CONTACT US!</h1>
+			</div>
+			<div class="lightyellow">
+				<input type="text" name="name" id="name" placeholder="Name..."><br>
+				<input type="email" name="email" id="email" placeholder="E-mail..."><br>
+				<input type="text" name="subject" id="subject" placeholder="Subject..."><br>
+				<textarea rows="4" cols="20" name="message" id="message" placeholder="Message..."></textarea>
+			</div>
+			<div class="yellow">
+				<button value="submit" name="submit"><h3>SEND MESSAGE</h3></button>
+			</div>
+		</form>
+		</div>
+	</center>
+	
+</body>
+</html>
