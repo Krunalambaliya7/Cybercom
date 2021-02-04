@@ -1,0 +1,6 @@
+Today i learn about oop concept in php.
+
+-class
+-objects
+-constructors
+-inheritance
