@@ -39,11 +39,11 @@ function display_age()
 }
 function admin_()
 {
-	var str = 'Hello '+sessionStorage.getItem("adminName");;
+	var str = 'Hello '+sessionStorage.getItem("adminName");
 	document.getElementById('str').innerHTML = str;
 }
 function user_() {
-	var arr = sessionStorage.getItem("userName");
-	var str = 'Hello '+arr['name'];
+
+	var str = 'Hello '+sessionStorage.getItem("user");
 	document.getElementById('str').innerHTML = str;
 }
