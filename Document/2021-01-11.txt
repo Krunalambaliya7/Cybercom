@@ -1,8 +1,0 @@
-Today's Work:
-
-Today I was learn about lopping, functions, condition statements, differant types of operartors and arrays.
-Also i completed my practice work and push it on git.
-
-And also I perform some task which is tell in lecture.
-
-Some of this topics which is I know already and some of like truly and falsey, function expression etc. which I Learn from this videos.  
