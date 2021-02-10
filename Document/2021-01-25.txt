@@ -1,9 +1,0 @@
-Today's work
-
-Today was learn about php topics like
-
--die and exit functions
--expression maching
--basic funtions
--global var
--strings function 

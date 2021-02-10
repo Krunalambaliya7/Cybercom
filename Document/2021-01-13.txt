@@ -1,7 +1,0 @@
-Today's Work:
-
-Today I learn about DOM (Document object model).
-DOM is use for show and retrive the content with html and css with the use of it's methods like getElementById,getElementByClass,getElementByName etc.
-
-Also Learn about local and session storage of browser.
-I perform it's operation which is i push in github.

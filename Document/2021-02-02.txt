@@ -1,7 +1,0 @@
-Today's work
-
-today i work on the five form
-form validation using js
-form validation using php
-get and print data in php
-also store data to database
