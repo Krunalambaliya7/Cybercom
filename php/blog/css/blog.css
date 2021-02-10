@@ -1,0 +1,30 @@
+.form{
+	border: 1px solid black;
+	margin-top: 150px;
+	margin-left: 400px;
+	margin-right: 500px;
+	padding-left: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.span{
+	color: red;
+	font-weight: bold;
+}
+.registration{
+	border: 1px solid black;
+	margin-left: 400px;
+	margin-right: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 200px;
+}
+.category{
+	border: 1px solid black;
+	margin-left: 400px;
+	margin-right: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 200px;
+	margin-top: 100px;
+}
